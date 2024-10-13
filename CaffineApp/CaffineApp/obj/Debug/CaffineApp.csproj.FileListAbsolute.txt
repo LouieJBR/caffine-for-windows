@@ -8,3 +8,4 @@ C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\bin\De
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.exe
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.pdb
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffeineApp.CaffineWindows.resources
+C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\bin\Debug\coffeecup_114302.ico

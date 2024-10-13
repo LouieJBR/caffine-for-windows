@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Timers;
+using System.IO;
 
 namespace CaffeineApp
 {
@@ -38,7 +39,18 @@ namespace CaffeineApp
             // Create a tray icon
             trayIcon = new NotifyIcon();
             trayIcon.Text = "Caffeine for Windows";
-            trayIcon.Icon = SystemIcons.Application; // You can replace this with a custom icon
+
+            string iconPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "coffeecup_114302.ico");
+
+            // Ensure the icon file exists before loading
+            if (File.Exists(iconPath))
+            {
+                trayIcon.Icon = new Icon(iconPath); // Load the icon from the specified path
+            }
+            else
+            {
+                MessageBox.Show("Icon file not found: " + iconPath, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             trayIcon.Visible = true;
         }
 
