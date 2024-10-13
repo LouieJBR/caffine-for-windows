@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6D9426EA-7BD9-4DEE-9E7F-1FE6AB7D0F2C}|CaffineApp\\CaffineApp.csproj|c:\\users\\devlo\\projects\\caffine\\caffine-for-windows\\caffineapp\\caffineapp\\caffinewindows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D9426EA-7BD9-4DEE-9E7F-1FE6AB7D0F2C}|CaffineApp\\CaffineApp.csproj|solutionrelative:caffineapp\\caffinewindows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9426EA-7BD9-4DEE-9E7F-1FE6AB7D0F2C}|CaffineApp\\CaffineApp.csproj|c:\\users\\devlo\\projects\\caffine\\caffine-for-windows\\caffineapp\\caffineapp\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D9426EA-7BD9-4DEE-9E7F-1FE6AB7D0F2C}|CaffineApp\\CaffineApp.csproj|solutionrelative:caffineapp\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +28,22 @@
               "RelativeDocumentMoniker": "CaffineApp\\CaffineWindows.cs",
               "ToolTip": "C:\\Users\\DevLo\\projects\\caffine\\caffine-for-windows\\CaffineApp\\CaffineApp\\CaffineWindows.cs",
               "RelativeToolTip": "CaffineApp\\CaffineWindows.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAwFAAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAA8wKoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:01:56.587Z",
+              "WhenOpened": "2024-10-13T13:52:41.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\DevLo\\projects\\caffine\\caffine-for-windows\\CaffineApp\\CaffineApp\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "CaffineApp\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\DevLo\\projects\\caffine\\caffine-for-windows\\CaffineApp\\CaffineApp\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "CaffineApp\\Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:25:00.27Z",
               "EditorCaption": ""
             }
           ]

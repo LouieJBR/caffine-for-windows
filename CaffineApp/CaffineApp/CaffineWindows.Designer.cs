@@ -27,10 +27,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.Text = "Caffeine for Windows";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;  // Start minimized
-            this.ShowInTaskbar = false;  // Hide the form from the taskbar
+            SuspendLayout();
+            // 
+            // CaffineWindows
+            // 
+            ClientSize = new System.Drawing.Size(284, 261);
+            Name = "CaffineWindows";
+            ShowInTaskbar = false;
+            Text = "Caffeine for Windows";
+            WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            Load += CaffineWindows_Load;
+            ResumeLayout(false);
         }
 
         #endregion
