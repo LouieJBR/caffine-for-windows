@@ -1,6 +1,6 @@
 ﻿namespace CaffeineApp
 {
-    partial class Form1
+    partial class CaffineWindows
     {
         /// <summary>
         /// Required designer variable.

@@ -1,5 +1,4 @@
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.csproj.AssemblyReference.cache
-C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffeineApp.Form1.resources
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.Properties.Resources.resources
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.csproj.GenerateResource.cache
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.csproj.CoreCompileInputs.cache
@@ -8,3 +7,4 @@ C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\bin\De
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\bin\Debug\CaffineApp.pdb
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.exe
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.pdb
+C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffeineApp.CaffineWindows.resources

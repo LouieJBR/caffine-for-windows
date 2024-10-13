@@ -13,7 +13,7 @@ namespace CaffineApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CaffeineApp.Form1());
+            Application.Run(new CaffeineApp.CaffineWindows());
         }
     }
 }
