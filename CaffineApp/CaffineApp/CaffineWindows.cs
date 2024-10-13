@@ -20,9 +20,9 @@ namespace CaffeineApp
 
         // NotifyIcon for the system tray
         private NotifyIcon trayIcon;
-        private ContextMenu trayMenu;
+        private ContextMenuStrip trayMenu;
         private System.Timers.Timer awakeTimer;
-    
+
         public CaffineWindows()
         {
 
@@ -80,7 +80,7 @@ namespace CaffeineApp
                 CheckOnClick = true // Make this item checkable
             };
             awake30.Click += (s, e) => ActivateForDuration(30);
-            
+
             ToolStripMenuItem awake60 = new ToolStripMenuItem("Awake for 1 hour")
             {
                 CheckOnClick = true // Make this item checkable
@@ -170,6 +170,11 @@ namespace CaffeineApp
             base.OnLoad(e);
             this.Visible = false; // Hide the main window
             this.ShowInTaskbar = false; // Do not show in the taskbar
+        }
+
+        private void CaffineWindows_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
