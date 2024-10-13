@@ -24,23 +24,63 @@ namespace CaffeineApp
     
         public CaffineWindows()
         {
-            // Initialize the context menu for the tray icon
-            trayMenu = new ContextMenu();
-            trayMenu.MenuItems.Add("Activate", OnActivate);
-            trayMenu.MenuItems.Add("Activate for 30 mins", (s,e)=> ActivateForDuration(30));
-            trayMenu.MenuItems.Add("Activate for 1 hour", (s, e) => ActivateForDuration(60));
-            trayMenu.MenuItems.Add("Deactivate", OnDeactivate);
-            trayMenu.MenuItems.Add("Quit", OnExit);
 
+            InitializeTrayIcon();
+            // Initialize the context menu for the tray icon
+            CreateCustomContextMenu();
+
+            // Start by activating stay awake mode
+            PreventSleep();
+        }
+
+        private void InitializeTrayIcon()
+        {
             // Create a tray icon
             trayIcon = new NotifyIcon();
             trayIcon.Text = "Caffeine for Windows";
             trayIcon.Icon = SystemIcons.Application; // You can replace this with a custom icon
-            trayIcon.ContextMenu = trayMenu;
             trayIcon.Visible = true;
+        }
 
-            // Start by activating stay awake mode
-            PreventSleep();
+        private void CreateCustomContextMenu()
+        {
+            ContextMenuStrip contextMenu = new ContextMenuStrip();
+            contextMenu.BackColor = Color.LightGray; // Background color
+            contextMenu.ForeColor = Color.Black; // Text color
+
+            ToolStripLabel titleLabel = new ToolStripLabel("Caffeine App")
+            {
+                Font = new Font("Arial", 10, FontStyle.Bold), // Set font style and size
+                ForeColor = Color.Black, // Set the text color
+            };
+
+            ToolStripMenuItem activateItem = new ToolStripMenuItem("Activate")
+            {
+                CheckOnClick = true // Make this item checkable
+            };
+            activateItem.Click += OnActivate;
+
+            ToolStripMenuItem deactivateItem = new ToolStripMenuItem("Deactivate");
+            deactivateItem.Click += OnDeactivate;
+
+            ToolStripMenuItem awake30 = new ToolStripMenuItem("Awake for 30 mins")
+            {
+                CheckOnClick = true // Make this item checkable
+            };
+            awake30.Click += (s, e) => ActivateForDuration(30);
+            
+            ToolStripMenuItem awake60 = new ToolStripMenuItem("Awake for 1 hour")
+            {
+                CheckOnClick = true // Make this item checkable
+            };
+            awake60.Click += (s, e) => ActivateForDuration(60);
+
+            ToolStripMenuItem exitItem = new ToolStripMenuItem("Exit");
+            exitItem.Click += OnExit;
+
+            contextMenu.Items.AddRange(new ToolStripItem[] { titleLabel, activateItem, deactivateItem, new ToolStripSeparator(), awake30, awake60, new ToolStripSeparator(), exitItem });
+
+            trayIcon.ContextMenuStrip = contextMenu;
         }
 
         // Prevent system sleep
