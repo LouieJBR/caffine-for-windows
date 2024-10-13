@@ -3,3 +3,8 @@ C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\De
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.Properties.Resources.resources
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.csproj.GenerateResource.cache
 C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.csproj.CoreCompileInputs.cache
+C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\bin\Debug\CaffineApp.exe.config
+C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\bin\Debug\CaffineApp.exe
+C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\bin\Debug\CaffineApp.pdb
+C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.exe
+C:\Users\DevLo\projects\caffine\caffine-for-windows\CaffineApp\CaffineApp\obj\Debug\CaffineApp.pdb
